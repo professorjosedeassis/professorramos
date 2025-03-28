@@ -3,6 +3,13 @@
 /* Importação de fonts (google fonts) */
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
+/*** layout ***/
 body {
     font-family: "Noto Sans", sans-serif;
 }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
