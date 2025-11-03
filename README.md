@@ -5,3 +5,6 @@ Site one page do Professor Ramos para divulgação dos projetos de PCs Gamer.
 
 ## Autor
 Professor José de Assis
+
+## Acessar o site
+![](./img/qrcode.png)
