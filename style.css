@@ -111,8 +111,7 @@ nav ul li a {
 
     /* Layout */
     .container {
-        max-width: 720px;
-       
+        max-width: 720px;       
     }
 }
 /* Fim - Tablet Portrait <<<<<<<<<<< */
@@ -123,8 +122,7 @@ nav ul li a {
 
     /* Layout */
     .container {
-        max-width: 960px;
-        
+        max-width: 960px;        
     }
 }
 /* Fim - Tablet Landscape <<<<<<<<<< */
@@ -135,8 +133,39 @@ nav ul li a {
 
     /* Layout */
     .container {
-        max-width: 1140px;
-        
+        max-width: 1140px; 
+        justify-content: space-between;       
+    }
+
+    /* Cabeçalho */
+    header {
+        height: 100px;
+    }
+
+    #logo img {
+        width: 194px;
+        height: 194px;
+    }
+
+    label {
+        display: none;
+    }
+
+    nav ul {
+        position: static;
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        margin-top: 20px;
+    }
+
+    nav ul li {
+        border: 0;
+        float: left;
+    }
+
+    nav ul li a:hover {
+        color: var(--dourado);
     }
 }
 /* Fim - Notebook / PC <<<<<<<<<<<< */
@@ -147,8 +176,7 @@ nav ul li a {
 
     /* Layout */
     .container {
-        max-width: 1320px;
-        
+        max-width: 1320px;        
     }    
 }
 /* Fim - Full HD / 4K <<<<<<<<<<<< */
