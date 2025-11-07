@@ -17,7 +17,7 @@
     --dourado: #ffc90e;
     --preto: #000;
     --rosa: #bc82b6;
-    --roxo: #2b085a;     
+    --roxo: #2b085a;
     --vermelho: #ff0000;
 }
 
@@ -177,17 +177,17 @@ main h2 {
 }
 
 /* Sobre */
-
 #sobre {
     padding: 50px 10px;
-    background-color: var(--roxo);   
+    background-color: var(--roxo);
 }
 
 #sobre .container {
     flex-direction: column;
 }
 
-#about h2, p {
+#about h2,
+p {
     color: var(--branco);
 }
 
@@ -200,6 +200,47 @@ main h2 {
     margin-top: 50px;
     width: 355px;
     height: 196px;
+}
+
+/* Faixa */
+#faixa {
+    padding: 50px 10px;
+    background: url(./img/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#faixa .container {
+    flex-direction: column;
+}
+
+#range-text h2 {
+    color: var(--branco);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+#range-text p {
+    margin-top: 15px;
+}
+
+#btn-telegram {
+    margin: 40px 0px 50px 0px;
+}
+
+#btn-telegram .btn {
+    background-color: var(--azulMedio);
+    padding: 10px 25px;
+    font-weight: 600;
+}
+
+#qrcode {
+    display: none;
+}
+
+#tele {
+    display: none;
 }
 
 /* Fim - Smartphone portrait <<<<<<<<<<<< */
@@ -260,6 +301,16 @@ main h2 {
     #video iframe {
         width: 560px;
         height: 315px;
+    }
+
+    /* Faixa */
+
+    #faixa {
+        padding: 50px 0px;
+    }
+
+    #range-text .topic {
+        display: flex;
     }
 }
 
@@ -346,7 +397,7 @@ main h2 {
 
     /* Destaque */
     #destaque {
-        /* background-attachment: fixed; */
+        background-attachment: fixed;
     }
 
     #hero img {
@@ -372,6 +423,28 @@ main h2 {
         margin: 0px 0px 0px 50px;
     }
 
+    /* Faixa */
+    #faixa {
+        background-attachment: fixed;
+    }
+
+    #faixa .container {
+        flex-direction: row;
+    }
+
+    #qrcode {
+        display: flex;
+        margin-left: 50px;
+    }
+
+    #qrcode img {
+        width: 300px;
+        height: 300px;
+    }
+
+    #tele {
+        display: inline;
+    }
 }
 
 /* Fim - Notebook / PC <<<<<<<<<<<<<<<<<< */
