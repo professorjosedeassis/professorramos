@@ -18,6 +18,7 @@
     --preto: #000;
     --rosa: #bc82b6;
     --roxo: #2b085a;
+    --verde: #25d366;
     --vermelho: #ff0000;
 }
 
@@ -216,17 +217,17 @@ p {
 
 #range-text h2 {
     color: var(--branco);
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 600;
-    margin-left: 10px;
+    margin: 0px 10px;
 }
 
 #range-text p {
     margin-top: 15px;
 }
 
-#btn-telegram {
-    margin: 40px 0px 50px 0px;
+#btn-telegram, #btn-whatsapp {
+    margin-top: 50px;
 }
 
 #btn-telegram .btn {
@@ -235,7 +236,13 @@ p {
     font-weight: 600;
 }
 
-#qrcode {
+#btn-whatsapp .btn {
+    background-color: var(--verde);
+    padding: 10px 16px;
+    font-weight: 600;
+}
+
+.qrcode {
     display: none;
 }
 
@@ -432,12 +439,12 @@ p {
         flex-direction: row;
     }
 
-    #qrcode {
+    .qrcode {
         display: flex;
         margin-left: 50px;
     }
 
-    #qrcode img {
+    .qrcode img {
         width: 300px;
         height: 300px;
     }
