@@ -197,6 +197,10 @@ p {
     font-size: 1.9rem;
 }
 
+#video {
+    text-align: center;
+}
+
 #video iframe {
     margin-top: 50px;
     width: 355px;
@@ -215,31 +219,34 @@ p {
     flex-direction: column;
 }
 
-#range-text h2 {
+.range-text h2 {
     color: var(--branco);
-    font-size: 1.3rem;
-    font-weight: 600;
+    font-size: 1.4rem;
+    font-weight: 700;
     margin: 0px 10px;
 }
 
-#range-text p {
+.range-text p {
     margin-top: 15px;
 }
 
 #btn-telegram, #btn-whatsapp {
     margin-top: 50px;
+    text-align: center;    
 }
 
 #btn-telegram .btn {
     background-color: var(--azulMedio);
-    padding: 10px 25px;
+    padding: 10px 20px;
     font-weight: 600;
+    font-size: 1.2rem;
 }
 
 #btn-whatsapp .btn {
     background-color: var(--verde);
-    padding: 10px 16px;
+    padding: 10px 12px;
     font-weight: 600;
+    font-size: 1.2rem;
 }
 
 .qrcode {
@@ -311,13 +318,20 @@ p {
     }
 
     /* Faixa */
-
     #faixa {
         padding: 50px 0px;
     }
 
-    #range-text .topic {
+    .range-text .topic {
         display: flex;
+    }
+
+    #btn-telegram, #btn-whatsapp {
+        float: left;    
+    }
+    
+    #btn-telegram {
+        margin-left: 25px;    
     }
 }
 
@@ -440,13 +454,21 @@ p {
     }
 
     .qrcode {
-        display: flex;
-        margin-left: 50px;
+        display: flex;       
     }
 
     .qrcode img {
-        width: 300px;
-        height: 300px;
+        width: 220px;
+        height: 220px;
+    }
+
+    .range-text {
+        padding: 0px 40px;
+    }
+
+    #btn-align {
+       display: flex;
+       justify-content:space-between;
     }
 
     #tele {
@@ -472,6 +494,11 @@ p {
 
     main h2 {
         font-size: 4rem;
+    }
+
+    /* Faixa */
+    #btn-telegram {
+        margin-left: 90px;    
     }
 }
 
