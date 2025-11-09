@@ -38,8 +38,9 @@ body {
     margin: 0 auto;
 }
 
-/* Botão */
+/* Botão 
 .btn {
+    
     text-decoration: none;
     font-size: 1.3rem;
     font-weight: 700;
@@ -48,6 +49,46 @@ body {
     color: var(--branco);
     border-radius: 25px;
     border: 2px solid var(--branco);
+   
+
+    display: inline-block;
+    text-decoration: none;
+    background: #ff0000;
+    /* cor base YouTube 
+    color: #fff;
+    padding: 14px 36px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 1;
+    box-shadow:
+        0 6px 15px rgba(0, 0, 0, 0.4),
+        /* profundidade 
+        0 0 20px rgba(255, 255, 255, 0.3),
+        /* brilho branco suave 
+        0 0 40px rgba(0, 180, 255, 0.25);
+    /* glow azulado para contraste 
+}
+*/
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    background: linear-gradient(135deg, #ff0000, #ff4444);
+    color: var(--branco);
+    padding: 14px 22px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4),
+        0 0 20px rgba(255, 255, 255, 0.3),
+        0 0 40px rgba(0, 180, 255, 0.25);
 }
 
 /* Fim - Layout <<<<<<<<<<<<<<<<<<<<<<<<< */
@@ -230,23 +271,22 @@ p {
     margin-top: 15px;
 }
 
-#btn-telegram, #btn-whatsapp {
-    margin-top: 50px;
-    text-align: center;    
+#btn-telegram,
+#btn-whatsapp {
+    margin-top: 30px;
+    text-align: center;
 }
 
 #btn-telegram .btn {
-    background-color: var(--azulMedio);
-    padding: 10px 20px;
-    font-weight: 600;
-    font-size: 1.2rem;
+    background: linear-gradient(135deg, #0088cc, #229ED9);
+    /*padding: 10px 20px;*/
+    box-shadow: none;
 }
 
 #btn-whatsapp .btn {
-    background-color: var(--verde);
-    padding: 10px 12px;
-    font-weight: 600;
-    font-size: 1.2rem;
+   background: linear-gradient(135deg, #25D366, #128C7E);
+   padding: 14px 12px;
+   box-shadow: none;
 }
 
 .qrcode {
@@ -326,12 +366,13 @@ p {
         display: flex;
     }
 
-    #btn-telegram, #btn-whatsapp {
-        float: left;    
+    #btn-telegram,
+    #btn-whatsapp {
+        float: left;
     }
-    
+
     #btn-telegram {
-        margin-left: 25px;    
+        margin-left: 25px;
     }
 }
 
@@ -454,12 +495,12 @@ p {
     }
 
     .qrcode {
-        display: flex;       
+        display: flex;
     }
 
     .qrcode img {
-        width: 220px;
-        height: 220px;
+        width: 215px;
+        height: 215px;
     }
 
     .range-text {
@@ -467,8 +508,8 @@ p {
     }
 
     #btn-align {
-       display: flex;
-       justify-content:space-between;
+        display: flex;
+        justify-content: space-between;
     }
 
     #tele {
@@ -498,7 +539,7 @@ p {
 
     /* Faixa */
     #btn-telegram {
-        margin-left: 90px;    
+        margin-left: 90px;
     }
 }
 
