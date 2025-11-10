@@ -38,42 +38,7 @@ body {
     margin: 0 auto;
 }
 
-/* Botão 
-.btn {
-    
-    text-decoration: none;
-    font-size: 1.3rem;
-    font-weight: 700;
-    background-color: var(--vermelho);
-    padding: 10px 40px;
-    color: var(--branco);
-    border-radius: 25px;
-    border: 2px solid var(--branco);
-   
-
-    display: inline-block;
-    text-decoration: none;
-    background: #ff0000;
-    /* cor base YouTube 
-    color: #fff;
-    padding: 14px 36px;
-    border-radius: 10px;
-    font-size: 1.1rem;
-    font-weight: 600;
-    cursor: pointer;
-    letter-spacing: 0.5px;
-    transition: all 0.3s ease;
-    position: relative;
-    z-index: 1;
-    box-shadow:
-        0 6px 15px rgba(0, 0, 0, 0.4),
-        /* profundidade 
-        0 0 20px rgba(255, 255, 255, 0.3),
-        /* brilho branco suave 
-        0 0 40px rgba(0, 180, 255, 0.25);
-    /* glow azulado para contraste 
-}
-*/
+/* Botão */
 .btn {
     display: inline-flex;
     align-items: center;
@@ -89,6 +54,31 @@ body {
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4),
         0 0 20px rgba(255, 255, 255, 0.3),
         0 0 40px rgba(0, 180, 255, 0.25);
+}
+
+/* Cartão */
+.card {
+    width: 341px;
+    height: 520px;
+    background-color: var(--cinzaClaro);
+    margin-top: 25px;
+    border: 2px solid var(--azulClaro);
+    /*border-radius: 25px;*/
+}
+
+.card img {
+    /* border-radius: 25px 25px 0px 0px; */
+}
+
+.card h2 {
+    font-size: 1.3rem;
+    margin: 15px 0px;
+}
+
+.card p {
+    color: var(--cinzaEscuro);
+    text-align: left;
+    padding: 0px 10px 30px 10px;
 }
 
 /* Fim - Layout <<<<<<<<<<<<<<<<<<<<<<<<< */
@@ -284,9 +274,9 @@ p {
 }
 
 #btn-whatsapp .btn {
-   background: linear-gradient(135deg, #25D366, #128C7E);
-   padding: 14px 12px;
-   box-shadow: none;
+    background: linear-gradient(135deg, #25D366, #128C7E);
+    padding: 14px 12px;
+    box-shadow: none;
 }
 
 .qrcode {
@@ -295,6 +285,21 @@ p {
 
 #tele {
     display: none;
+}
+
+/* Cartões */
+#pcgamer {
+    background-color: var(--roxo);
+    padding: 50px 0px;
+}
+
+#pcgamer .container {
+    flex-direction: column;
+    text-align: center;
+}
+
+#pcgamer .btn {
+    box-shadow: none;
 }
 
 /* Fim - Smartphone portrait <<<<<<<<<<<< */
