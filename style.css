@@ -1,11 +1,3 @@
-/**
-    Folha de estilo do site professorramos.com
-    @author Professor José de Assis
-    @link https://joseassis.com.br
-*/
-
-/* Layout >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-
 /* Variáveis */
 :root {
     --azulClaro: #9cdcfe;
@@ -61,14 +53,15 @@ body {
     width: 341px;
     height: 520px;
     background-color: var(--cinzaClaro);
-    margin-top: 25px;
+    margin-bottom: 25px;
     border: 2px solid var(--azulClaro);
+    text-align: center;
     /*border-radius: 25px;*/
 }
 
-.card img {
-    /* border-radius: 25px 25px 0px 0px; */
-}
+/*.card img {
+    border-radius: 25px 25px 0px 0px;
+}*/
 
 .card h2 {
     font-size: 1.3rem;
@@ -78,7 +71,7 @@ body {
 .card p {
     color: var(--cinzaEscuro);
     text-align: left;
-    padding: 0px 10px 30px 10px;
+    padding: 0px 15px 30px 15px;
 }
 
 /* Fim - Layout <<<<<<<<<<<<<<<<<<<<<<<<< */
@@ -290,16 +283,18 @@ p {
 /* Cartões */
 #pcgamer {
     background-color: var(--roxo);
-    padding: 50px 0px;
+    padding: 50px 0px 25px 0px;
 }
 
 #pcgamer .container {
     flex-direction: column;
-    text-align: center;
+    align-items: center;
 }
 
 #pcgamer .btn {
     box-shadow: none;
+    width: 240px;
+    justify-content: center;
 }
 
 /* Fim - Smartphone portrait <<<<<<<<<<<< */
@@ -412,6 +407,17 @@ p {
     .container {
         max-width: 960px;
     }
+
+    /* Cartões */
+    #pcgamer .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .card {
+        margin-right: 25px;
+    }
 }
 
 /* Fim - Tablet landscape <<<<<<<<<<<<<<< */
@@ -519,6 +525,11 @@ p {
 
     #tele {
         display: inline;
+    }
+
+    /* Cartões */
+    .card {
+        margin-right: 0;
     }
 }
 
