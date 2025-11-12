@@ -74,6 +74,18 @@ body {
     padding: 0px 15px 30px 15px;
 }
 
+/* Topo do site */
+#topo {
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
+}
+
+/* Scroll suave */
+html {
+    scroll-behavior: smooth;
+}
+
 /* Fim - Layout <<<<<<<<<<<<<<<<<<<<<<<<< */
 
 
@@ -148,12 +160,13 @@ main .container {
 main h1 {
     color: var(--branco);
     font-family: "Koulen", sans-serif;
+    font-size: 1.9rem;
     text-shadow: 0px 5px 10px var(--preto), 0px 10px 10px rgba(0, 0, 0, 0.15), 0px 15px 15px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
 }
 
 main h2 {
     color: var(--dourado);
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     font-weight: 900;
     text-shadow: 0px 5px 10px var(--preto), 0px 10px 10px rgba(0, 0, 0, 0.15), 0px 15px 15px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
@@ -226,9 +239,10 @@ p {
 }
 
 #video iframe {
+    border: 1px solid var(--azulClaro);
     margin-top: 50px;
-    width: 355px;
-    height: 196px;
+    width: 340px;
+    height: 191px;
 }
 
 /* Faixa */
@@ -295,6 +309,34 @@ p {
     box-shadow: none;
     width: 240px;
     justify-content: center;
+}
+
+/* Rodapé */
+footer {
+    padding: 50px 0px;
+    background-color: var(--preto);
+    text-align: center;
+}
+
+footer .container {
+    flex-direction: column-reverse;    
+}
+
+footer p {
+    color: var(--cinzaClaro);    
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--cinzaMedio)
+}
+
+#social {
+    margin-bottom: 25px;        
+}
+
+#social a {
+    margin: 0px 2px;
 }
 
 /* Fim - Smartphone portrait <<<<<<<<<<<< */
