@@ -1,3 +1,5 @@
+/* Layout >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
 /* Variáveis */
 :root {
     --azulClaro: #9cdcfe;
@@ -276,7 +278,6 @@ p {
 
 #btn-telegram .btn {
     background: linear-gradient(135deg, #0088cc, #229ED9);
-    /*padding: 10px 20px;*/
     box-shadow: none;
 }
 
@@ -295,17 +296,17 @@ p {
 }
 
 /* Cartões */
-#pcgamer {
+#parceria {
     background-color: var(--roxo);
     padding: 50px 0px 25px 0px;
 }
 
-#pcgamer .container {
+#parceria .container {
     flex-direction: column;
     align-items: center;
 }
 
-#pcgamer .btn {
+#parceria .btn {
     box-shadow: none;
     width: 240px;
     justify-content: center;
@@ -350,7 +351,7 @@ footer {
     padding: 50px 0px;
     background-color: var(--preto);
     text-align: center;
-    border-top: 2px solid var(--cinzaEscuro);
+    border-top: 3px solid var(--cinzaEscuro);
 }
 
 footer .container {
@@ -378,6 +379,7 @@ footer a {
 
 
 /* Smartphone landscape >>>>>>>>>>>>>>>>> */
+
 @media (min-width: 576px) {
 
     /* Layout */
@@ -462,6 +464,7 @@ footer a {
 
 
 /* Tablet portrait >>>>>>>>>>>>>>>>>>>>>> */
+
 @media (min-width: 768px) {
 
     /* Layout */
@@ -483,6 +486,7 @@ footer a {
 
 
 /* Tablet landscape >>>>>>>>>>>>>>>>>>>>> */
+
 @media (min-width: 992px) {
 
     /* Layout */
@@ -491,7 +495,7 @@ footer a {
     }
 
     /* Cartões */
-    #pcgamer .container {
+    #parceria .container {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -506,6 +510,7 @@ footer a {
 
 
 /* Notebook / PC >>>>>>>>>>>>>>>>>>>>>>>> */
+
 @media (min-width: 1200px) {
 
     /* Layout */
@@ -616,13 +621,13 @@ footer a {
 
     /* Contato */
     #contato {
-       background-attachment: fixed;
-       padding: 50px 0px;
+        background-attachment: fixed;
+        padding: 50px 0px;
     }
 
     #contato .container {
         flex-direction: row-reverse;
-        justify-content:space-evenly;
+        justify-content: space-evenly;
     }
 
     #endereco img {
@@ -630,7 +635,11 @@ footer a {
         height: 120px;
     }
 
-    #zap {        
+    #mapa {
+        padding-top: 8px;
+    }
+
+    #zap {
         font-size: 2rem;
     }
 
@@ -644,6 +653,7 @@ footer a {
 
 
 /* Full HD / 4K >>>>>>>>>>>>>>>>>>>>>>>>> */
+
 @media (min-width: 1400px) {
 
     /* Layout */
