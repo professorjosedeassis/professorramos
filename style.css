@@ -311,19 +311,54 @@ p {
     justify-content: center;
 }
 
+/* Contato */
+#contato {
+    padding: 25px 10px 50px 10px;
+    background: url(./img/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#contato .container {
+    flex-direction: column;
+}
+
+#mapa iframe {
+    max-width: 100%;
+}
+
+#endereco img {
+    width: 90px;
+    height: 90px;
+}
+
+#endereco .topic {
+    margin-bottom: 20px;
+}
+
+#zap {
+    font-weight: 600;
+    font-size: 1.75rem;
+}
+
+#local {
+    margin: 20px 0px 25px 0px;
+}
+
 /* Rodapé */
 footer {
     padding: 50px 0px;
     background-color: var(--preto);
     text-align: center;
+    border-top: 2px solid var(--cinzaEscuro);
 }
 
 footer .container {
-    flex-direction: column-reverse;    
+    flex-direction: column-reverse;
 }
 
 footer p {
-    color: var(--cinzaClaro);    
+    color: var(--cinzaClaro);
 }
 
 footer a {
@@ -332,7 +367,7 @@ footer a {
 }
 
 #social {
-    margin-bottom: 25px;        
+    margin-bottom: 25px;
 }
 
 #social a {
@@ -415,6 +450,11 @@ footer a {
 
     #btn-telegram {
         margin-left: 25px;
+    }
+
+    /* Contato */
+    #endereco .topic {
+        display: flex;
     }
 }
 
@@ -572,6 +612,31 @@ footer a {
     /* Cartões */
     .card {
         margin-right: 0;
+    }
+
+    /* Contato */
+    #contato {
+       background-attachment: fixed;
+       padding: 50px 0px;
+    }
+
+    #contato .container {
+        flex-direction: row-reverse;
+        justify-content:space-evenly;
+    }
+
+    #endereco img {
+        width: 120px;
+        height: 120px;
+    }
+
+    #zap {        
+        font-size: 2rem;
+    }
+
+    #local {
+        margin-top: 25px;
+        max-width: 400px;
     }
 }
 
