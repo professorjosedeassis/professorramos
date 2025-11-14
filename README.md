@@ -10,7 +10,7 @@
 </p>
 
 # Site do Professor Ramos
-Este projeto foi desenvolvido como parte do meu portfólio e apresenta um site simples, direto e funcional criado para o Professor Ramos. O objetivo foi oferecer uma página clara para divulgação dos serviços de montagem de PCs Gamer, upgrade e manutenção de computadores.
+Este projeto foi desenvolvido como parte do meu portfólio e apresenta um site simples, direto e funcional criado para o Professor Ramos. O objetivo foi oferecer uma página clara para divulgação dos serviços de montagem, upgrade e manutenção de PCs Gamer.
 
 ## Autor
 Professor José de Assis
