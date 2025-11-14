@@ -33,7 +33,7 @@
                 <ul>
                     <li><a href="#inicio">Inicio</a></li>
                     <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#pcgamer">Parceria</a></li>
+                    <li><a href="#faixa">Grupos & Cupons</a></li>
                     <li><a href="#contato">Contato</a></li>
                 </ul>
             </nav>
@@ -94,7 +94,7 @@
                     play e vem comigo!</p>
             </div>
             <div id="video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/_FW2eTsjaWE?si=AYvhB9moRkb3wouJ"
+                <iframe width="560" height="315" src="https://www.youtube.com/embed?list=UUILDPnM67p8nb1uL8tNdYXQ"
                     title="YouTube video player"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -207,11 +207,20 @@
     <div id="topo">
         <a href="#inicio"><img src="./img/top.png" alt="icon top"></a>
     </div>
-    <!-- Ano automático -->
+
     <script>
+        // Ano automático
         let ano = document.getElementById("copyrightYear")
         let anoAtual = new Date().getFullYear()
         ano.textContent = anoAtual
+
+        // Recolher menu ao rolar
+        window.addEventListener('scroll', function () {
+            const menuCheckbox = document.getElementById('check')
+            if (menuCheckbox.checked) {
+                menuCheckbox.checked = false
+            }
+        })
     </script>
 </body>
 
