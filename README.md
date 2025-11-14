@@ -1,5 +1,5 @@
-![GitHub License](https://img.shields.io/github/license/professorjosedeassis/pr)
-![Website](https://img.shields.io/website?url=https%3A%2F%2Fprofessorjosedeassis.github.io%2Fpr%2F)
+![GitHub License](https://img.shields.io/github/license/professorjosedeassis/professorramos)
+![Website](https://img.shields.io/website?url=https%3A%2F%2Fprofessorjosedeassis.github.io%2Fprofessorramos%2F)
 
 <p>
     <a href="https://jigsaw.w3.org/css-validator/check/referer">
@@ -15,7 +15,7 @@ Este projeto foi desenvolvido como parte do meu portfólio e apresenta um site s
 ## Autor
 Professor José de Assis
 
-Acessar o site: [professorramos.com](https://professorjosedeassis.github.io/pr/)
+Acessar o site: [professorramos.com](https://professorjosedeassis.github.io/professorramos/)
 
 <hr>
 
